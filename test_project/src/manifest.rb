@@ -50,6 +50,8 @@ require 'application_view'
 # add_to_load_path "../lib/java"
 #
 
+add_to_load_path "../src/main"
+
 case Monkeybars::Resolver.run_location
 when Monkeybars::Resolver::IN_FILE_SYSTEM
   # Files to be added only when running from the file system go here
